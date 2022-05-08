@@ -5,15 +5,15 @@
     <title></title>
 </head>
 <body>
-<form action="Kalkulator.php" method="post">
+<form method="post">
 
-    <input type="radio" name="znak" value="+" /> +<br />
-    <input type="radio" name="znak" value="-" /> -<br />
-    <input type="radio" name="znak" value="/" /> /<br />
-    <input type="radio" name="znak" value="*" /> *<br />
+    <input type="radio" name="znak" value="+" />+<br />
+    <input type="radio" name="znak" value="-" />-<br />
+    <input type="radio" name="znak" value="/" />/<br />
+    <input type="radio" name="znak" value="*" />*<br />
 
-    podaj1<br> <input type="text" name="podaj1" /><br />
-    podaj2<br> <input type="text" name="Podaj2 " /><br />
+    podaj1<br> <input type="text" name="liczba1"/><br />
+    podaj2<br> <input type="text" name="liczba2"/><br />
 
     <input type="submit" value="Oblicz" /> <br>
 </form>

@@ -23,7 +23,6 @@ if(isset($_POST['submit']))
     echo "Twój numer Telefonu : " . $Telefon . "<br>";
     echo "Ilość osób dorosłych : " . $Dorośli . "<br>";
     echo "Ilość dzieci : " . $Dzieci . "<br>";
-    echo "Ilość Pokoi : " . $Ilość_Pokoi . "<br>";
-    echo "Rodzaj Pokoi : " . $Rodzaj_Pokoi . "<br>";
+    echo "rodzaj apartamentu `;". $Rodzaj_Pokoi . "<br>";
 }
 ?>
